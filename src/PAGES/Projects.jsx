@@ -2,6 +2,8 @@ import React from "react";
 import { BsArrow90DegDown } from "react-icons/bs";
 import WebPortfolio from "../COMPONENTS/WebPortfolio";
 import { FaRegPaperPlane } from "react-icons/fa6";
+import FlyerPortfolio from "../COMPONENTS/FlyerPortfolio";
+import { portfolio } from "../RESOURCES/links";
 
 export default function Projects() {
   return (
@@ -33,7 +35,40 @@ export default function Projects() {
           </button>
         </main>
 
-        <WebPortfolio />
+        <section className="flex flex-col gap-10">
+          <h1
+            data-aos="fade-left"
+            className="text-3xl lg:text-5xl font-main font-black text-main"
+          >
+            Websites Developed
+          </h1>
+          <WebPortfolio />
+        </section>
+
+        {/* <section className="restaurantFoodCont gap-6">
+          {portfolio
+            .filter((work) => work.type == "FLYER")
+            .map((work) => (
+              <>
+                <div className=" rounded-2xl flex items-center justify-center  bg-main/10 py-3">
+                  <img
+                    src={work.image}
+                    className="w-[80%] h-[90%] object-cover rounded-2xl"
+                    alt={work.name}
+                  />
+                </div>
+              </>
+            ))}
+        </section> */}
+        <section className="flex flex-col gap-10">
+          <h1
+            data-aos="fade-left"
+            className="text-3xl lg:text-5xl font-main font-black text-main"
+          >
+            Graphic Designs
+          </h1>
+          <FlyerPortfolio />
+        </section>
 
         <div className="flex items-center gap-3 mx-auto flex-col lg:flex-row">
           <p

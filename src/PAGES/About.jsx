@@ -43,14 +43,14 @@ export default function About() {
           </main>
         </section>
 
-        <section className="flex flex-col lg:gap-6 gap-3 text-white lg:items-end">
+        <section className="flex flex-col lg:gap-6 gap-3 text-white items-end">
           <main
             data-aos="fade-up"
             className="flex items-center gap-2 px-4 lg:px-6 lg:py-3 py-2 rounded-full bg-main w-max"
           >
             <span className="font-black text-xl lg:text-4xl tracking-widest">
               <span className="flex items-center gap-1">
-                <Counter targetNumber={10} duration={150} />+
+                <Counter targetNumber={10} duration={500} />+
               </span>
             </span>
             <span className="text-sm lg:text-lg tracking-wide font-semibold">
@@ -60,11 +60,11 @@ export default function About() {
 
           <main
             data-aos="fade-up"
-            className="flex items-center gap-2 px-4 lg:px-6 lg:py-3 py-2 rounded-full bg-main w-max lg:mr-[15rem]"
+            className="flex items-center gap-2 px-4 lg:px-6 lg:py-3 py-2 rounded-full bg-main w-max mr-[3rem] lg:mr-[15rem]"
           >
             <span className="font-black text-xl lg:text-4xl tracking-widest">
               <span className="flex items-center gap-1">
-                <Counter targetNumber={40} duration={150} />+
+                <Counter targetNumber={40} duration={500} />+
               </span>
             </span>
             <span className="text-sm lg:text-lg tracking-wide font-semibold">
@@ -74,11 +74,25 @@ export default function About() {
 
           <main
             data-aos="fade-up"
-            className="flex items-center gap-2 px-4 lg:px-6 lg:py-3 py-2 rounded-full bg-main w-max lg:mr-[25rem]"
+            className="flex items-center gap-2 px-4 lg:px-6 lg:py-3 py-2 rounded-full bg-main w-max mr-[5rem] lg:mr-[25rem]"
           >
             <span className="font-black text-xl lg:text-4xl tracking-widest">
               <span className="flex items-center gap-1">
-                <Counter targetNumber={10} duration={100} />+
+                <Counter targetNumber={50} duration={500} />+
+              </span>
+            </span>
+            <span className="text-sm lg:text-lg tracking-wide font-semibold">
+              Customers Satified
+            </span>
+          </main>
+
+          <main
+            data-aos="fade-up"
+            className="flex items-center gap-2 px-4 lg:px-6 lg:py-3 py-2 rounded-full bg-main w-max mr-[7rem] lg:mr-[35rem]"
+          >
+            <span className="font-black text-xl lg:text-4xl tracking-widest">
+              <span className="flex items-center gap-1">
+                <Counter targetNumber={10} duration={500} />+
               </span>
             </span>
             <span className="text-sm lg:text-lg tracking-wide font-semibold">
@@ -88,25 +102,11 @@ export default function About() {
 
           <main
             data-aos="fade-up"
-            className="flex items-center gap-2 px-4 lg:px-6 lg:py-3 py-2 rounded-full bg-main w-max lg:mr-[35rem]"
+            className="flex items-center gap-2 px-4 lg:px-6 lg:py-3 py-2 rounded-full bg-main w-max mr-[9rem] lg:mr-[45rem]"
           >
             <span className="font-black text-xl lg:text-4xl tracking-widest">
               <span className="flex items-center gap-1">
-                <Counter targetNumber={10} duration={100} />+
-              </span>
-            </span>
-            <span className="text-sm lg:text-lg tracking-wide font-semibold">
-              Website Developed
-            </span>
-          </main>
-
-          <main
-            data-aos="fade-up"
-            className="flex items-center gap-2 px-4 lg:px-6 lg:py-3 py-2 rounded-full bg-main w-max lg:mr-[45rem]"
-          >
-            <span className="font-black text-xl lg:text-4xl tracking-widest">
-              <span className="flex items-center gap-1">
-                <Counter targetNumber={10} duration={100} />+
+                <Counter targetNumber={10} duration={500} />+
               </span>
             </span>
             <span className="text-sm lg:text-lg tracking-wide font-semibold">

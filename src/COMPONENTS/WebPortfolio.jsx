@@ -5,33 +5,32 @@ import "swiper/css";
 import { Autoplay, Navigation } from "swiper/modules"; // Import Navigation module
 import { FaArrowLeftLong, FaArrowRightLong } from "react-icons/fa6";
 
-export default function WebPortfolio({ id, name, image, link, type }) {
+export default function WebPortfolio() {
   return (
     <>
       <section className="max-w-full gap-10 overflow-hidden relative">
         {/* Swiper component */}
         <Swiper
-          modules={[Autoplay, Navigation]} // Add Navigation module
-          spaceBetween={70} // Space between slides
-          slidesPerView="auto" // Automatically adjust slides per view
-          loop={true} // Infinite loop
-          centeredSlides={true} // Center slides
-          grabCursor={true} // Allow grab cursor on swipe
-          pagination={{ clickable: true }} // Pagination controls
-          autoplay={{ delay: 3000 }} // Auto transition every 3 seconds
+          modules={[Autoplay, Navigation]}
+          spaceBetween={70}
+          slidesPerView="auto"
+          loop={true}
+          centeredSlides={true}
+          grabCursor={true}
+          pagination={{ clickable: true }}
+          autoplay={{ delay: 3000 }}
           breakpoints={{
             640: {
-              slidesPerView: 1, // 1 slide on small screens
+              slidesPerView: 1,
             },
             768: {
-              slidesPerView: 2, // 2 slides on medium screens
+              slidesPerView: 2,
             },
             1024: {
-              slidesPerView: 3, // 3 slides on larger screens
+              slidesPerView: 3,
             },
           }}
           navigation={{
-            // Enable navigation arrows
             nextEl: ".swiper-button-next",
             prevEl: ".swiper-button-prev",
           }}
@@ -75,11 +74,7 @@ export default function WebPortfolio({ id, name, image, link, type }) {
                   <img
                     src={work.image}
                     alt={work.name}
-                    className={`${
-                      work.type === "FLYER"
-                        ? "max-w-[250px]"
-                        : " max-w-[300px] lg:max-w-[500px]"
-                    } w-full`}
+                    className={`max-w-[300px] lg:max-w-[500px] w-full`}
                   />
                 </div>
               </SwiperSlide>
