@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "acorn";
+  src: url(../src/ASSETS/FONTS/acorn.woff);
+}
+body,
+html {
+  overflow-x: hidden;
+}
+* {
+  font-family: "acorn", sans-serif;
+  transition: all 0.5s ease-in;
+  scroll-behavior: smooth;
+}
+.bgGradient {
+  background: rgb(250, 2, 86);
+  background: radial-gradient(
+    circle,
+    rgba(250, 2, 86, 0.11825980392156865) 0%,
+    rgba(237, 231, 222, 1) 44%,
+    rgba(2, 90, 78, 0.19108893557422968) 84%,
+    rgba(72, 1, 254, 0.0846463585434174) 100%
+  );
+}
+
+.footerLink::before {
+  content: "";
+  width: 100%;
+  height: 1px;
+  background: #025a4e;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  border-radius: 50% 50% 0 0;
+  max-width: 0;
+  transition: 0.35s ease;
+}
+.footerLink:hover::before {
+  max-width: 100%;
+}
