@@ -3,7 +3,6 @@ import { BsArrow90DegDown } from "react-icons/bs";
 import WebPortfolio from "../COMPONENTS/WebPortfolio";
 import { FaRegPaperPlane } from "react-icons/fa6";
 import FlyerPortfolio from "../COMPONENTS/FlyerPortfolio";
-import { portfolio } from "../RESOURCES/links";
 
 export default function Projects() {
   return (

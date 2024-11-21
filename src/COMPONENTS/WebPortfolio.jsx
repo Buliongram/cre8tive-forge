@@ -1,5 +1,5 @@
 import React from "react";
-import { portfolio } from "../RESOURCES/links";
+import { myPortfolio } from "../RESOURCES/links";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import { Autoplay, Navigation } from "swiper/modules"; // Import Navigation module
@@ -35,7 +35,7 @@ export default function WebPortfolio() {
             prevEl: ".swiper-button-prev",
           }}
         >
-          {portfolio
+          {myPortfolio
             .filter((work) => work.type === "WEBSITE")
             .map((work, index) => (
               <SwiperSlide key={index}>

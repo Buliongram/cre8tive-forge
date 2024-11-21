@@ -2,8 +2,7 @@ import React from "react";
 import { Autoplay, Navigation } from "swiper/modules";
 import "swiper/css";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { portfolio } from "../RESOURCES/links";
-import { FaArrowLeftLong, FaArrowRightLong } from "react-icons/fa6";
+import { myPortfolio } from "../RESOURCES/links";
 export default function FlyerPortfolio() {
   return (
     <>
@@ -28,7 +27,7 @@ export default function FlyerPortfolio() {
           }}
           className=""
         >
-          {portfolio
+          {myPortfolio
             .filter((work) => work.type === "FLYER")
             .map((work) => (
               <SwiperSlide className="grid place-items-center" key={work.id}>
