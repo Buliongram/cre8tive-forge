@@ -66,7 +66,7 @@ export default function App() {
       ],
     },
   ]);
-  if (loading)
+  if (loading) {
     return (
       <>
         <section className="h-full w-full fixed left-0 top-0 bg-white/40 backdrop-blur-lg grid place-items-center">
@@ -80,6 +80,7 @@ export default function App() {
         </section>
       </>
     );
+  }
   return (
     <main className="bgGradient pt-32 -m-8">
       <Toaster />
