@@ -56,3 +56,47 @@ html {
     grid-auto-flow: dense;
   }
 }
+
+.preloaderCont::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #025a4e39;
+  display: table;
+  border-radius: 50%;
+  animation: bluePulse 1s infinite linear;
+}
+.preloaderImage {
+  animation: scale 1s infinite linear;
+}
+
+@keyframes bluePulse {
+  0% {
+    opacity: 1;
+    width: 300px;
+    height: 300px;
+  }
+  95% {
+    opacity: 0.1;
+
+    width: 28px;
+    height: 28px;
+  }
+  to {
+    opacity: 0;
+    width: 300px;
+    height: 300px;
+  }
+}
+@keyframes scale {
+  0% {
+    transform: rotate(360deg) scale(0.3);
+  }
+
+  100% {
+    transform: rotate(0) scale(1);
+  }
+}

@@ -11,9 +11,11 @@ import Contact from "./PAGES/Contact";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect, useState } from "react";
+import { ICON } from "./ASSETS/IMAGES/images";
 
 export default function App() {
   const [showContact, setShowContact] = useState(false);
+  const [loading, setLoading] = useState(true);
   useEffect(() => {
     AOS.init({
       offset: 100,
@@ -23,7 +25,10 @@ export default function App() {
       once: true,
     });
 
-    return () => AOS.refresh();
+    return () => {
+      AOS.refresh();
+      setLoading(false);
+    };
   }, []);
 
   function PageLayout() {
@@ -61,7 +66,20 @@ export default function App() {
       ],
     },
   ]);
-
+  if (loading)
+    return (
+      <>
+        <section className="h-full w-full fixed left-0 top-0 bg-white/40 backdrop-blur-lg grid place-items-center">
+          <div className="preloaderCont h-24 w-24 lg:h-32 lg:w-32 rounded-full flex items-center justify-center shrink-0 bg-main">
+            <img
+              src={ICON}
+              className="preloaderImage w-[70px] lg:w-[100px]"
+              alt="icon"
+            />
+          </div>
+        </section>
+      </>
+    );
   return (
     <main className="bgGradient pt-32 -m-8">
       <Toaster />

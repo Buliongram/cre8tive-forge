@@ -54,14 +54,14 @@ export const myPortfolio = [
     id: "1",
     name: "Mandyz Elite Restaurant",
     image: WEBSITE1,
-    link: null,
+    link: "mandyz.vercel.app",
     type: "WEBSITE",
   },
   {
     id: "2",
     name: "Vogue Wears",
     image: WEBSITE2,
-    link: "www.voguewears.vercel.app",
+    link: "voguewears.vercel.app",
     type: "WEBSITE",
   },
   {
@@ -73,14 +73,14 @@ export const myPortfolio = [
   },
   {
     id: "4",
-    name: "Freightiex",
+    name: "Restaurant Website",
     image: WEBSITE4,
     link: null,
     type: "WEBSITE",
   },
   {
     id: "5",
-    name: "Restaurant Website",
+    name: "Freightiex",
     image: WEBSITE5,
     link: null,
     type: "WEBSITE",
