@@ -50,7 +50,7 @@ export default function Contact({ showContact, setShowContact }) {
       <section
         className={`${
           showContact ? "lg:right-6" : "-right-full"
-        } fixed top-0  bg-white/40 backdrop-blur-md lg:h-[90%] w-full lg:w-[380px] overflow-y-scroll rounded-b-3xl z-[2100] h-full`}
+        } fixed top-0  bg-white/40 backdrop-blur-md lg:h-[90%] w-full lg:w-[380px] overflow-y-scroll rounded-b-3xl z-[12] h-full`}
       >
         <main className="p-4 bg-main text-white flex lg:hidden items-center justify-between w-full">
           <div className="flex items-center gap-4">

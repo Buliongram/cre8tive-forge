@@ -29,7 +29,7 @@ export default function Header({ showContact, setShowContact }) {
   };
   return (
     <header
-      className={`flex z-[2000] ${
+      className={`flex z-[10] ${
         windowScroll ? "bg-white/40 backdrop-blur-md" : ""
       }  fixed items-center gap-1 py-3 px-4 rounded-full  w-max left-1/2 -translate-x-1/2 top-6 font-medium text-sm lg:text-[16px] text-main`}
     >
