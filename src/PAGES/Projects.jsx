@@ -140,7 +140,7 @@ export default function Projects() {
               {selectedWork.package && (
                 <div className="flex text-sm flex-col items-start gap-1">
                   {selectedWork.package.map((pack) => (
-                    <span className="flex items-center gap-2">
+                    <span className="flex items-center gap-2 text-left">
                       {pack}
                       <IoCheckmarkCircle className="text-lg text-green-600" />
                     </span>
