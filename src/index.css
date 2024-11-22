@@ -101,3 +101,6 @@ html {
     transform: rotate(360deg) scale(1);
   }
 }
+.hideOverflow::-webkit-scrollbar {
+  display: none;
+}

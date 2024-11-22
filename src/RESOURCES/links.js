@@ -57,13 +57,13 @@ export const myPortfolio = [
     link: "mandyz.vercel.app",
     type: "WEBSITE",
     description:
-      "Mandyz Elite Restaurant needed a user-friendly platform for online food orders. We provided a complete solution with a modern design, seamless ordering, and a responsive interface. Package includes:",
+      "Mandyz Elite Restaurant required a functional and user-friendly platform for customers to place food orders online. We delivered a complete solution with a modern website design, smooth ordering process, and responsive interface for a better customer experience. Package includes:",
     package: [
-      "\nWebsite Design & Build ✅",
-      "\nOrder System Integration ✅",
-      "\nMobile Responsive ✅",
-      "\nEasy Navigation ✅",
-      "\nSecure Checkout & Payment System (Paystack) ✅",
+      "Website Design & Build",
+      "Order System Integration",
+      "Mobile Responsive",
+      "Easy Navigation",
+      "Secure Checkout & Payment System (Paystack)",
     ],
   },
   {
@@ -73,7 +73,13 @@ export const myPortfolio = [
     link: "voguewears.vercel.app",
     type: "WEBSITE",
     description:
-      "Vogue Wears wanted a sleek and stylish online store for their fashion brand. We provided them with an eye-catching e-commerce website and a seamless shopping experience. Package includes:\nWebsite Design & Build ✅\nE-commerce Integration ✅\nProduct Display & Sorting ✅\nSecure Payment Gateway ✅",
+      "Vogue Wears wanted a sleek and stylish online store for their fashion brand. We provided them with an eye-catching e-commerce website and a seamless shopping experience. Package includes:",
+    package: [
+      "Website Design & Build",
+      "E-commerce Integrationn",
+      "Product Display & Sorting",
+      "Secure Payment Gateway",
+    ],
   },
   {
     id: "3",
@@ -82,7 +88,13 @@ export const myPortfolio = [
     link: null,
     type: "WEBSITE",
     description:
-      "Hair Haven needed a professional website for their hair salon services. We crafted a modern, mobile-friendly website with integrated booking options and service listings. Package includes:\nWebsite Design & Build ✅\nService Listings ✅\nOnline Booking System ✅\nResponsive Design ✅",
+      "Hair Haven needed a professional website for their hair salon services. We crafted a modern, mobile-friendly website with integrated booking options and service listings. Package includes:",
+    package: [
+      "Website Design & Build",
+      "Service Listings",
+      "Online Booking System",
+      "Responsive Design",
+    ],
   },
   {
     id: "4",
@@ -91,7 +103,13 @@ export const myPortfolio = [
     link: null,
     type: "WEBSITE",
     description:
-      "This project focused on creating a dynamic restaurant website that not only showcases the menu but also allows for online ordering. The solution is fully responsive and tailored to the restaurant industry. Package includes:\nWebsite Design & Build ✅\nMenu Display ✅\nOnline Ordering Integration ✅\nMobile Friendly ✅",
+      "This project focused on creating a dynamic restaurant website that not only showcases the menu but also allows for online ordering. The solution is fully responsive and tailored to the restaurant industry. Package includes:",
+    package: [
+      "Website Design & Build",
+      "Menu Display",
+      "Online Ordering Integration",
+      "Mobile Friendly",
+    ],
   },
   {
     id: "5",
@@ -100,7 +118,13 @@ export const myPortfolio = [
     link: null,
     type: "WEBSITE",
     description:
-      "Freightiex is a courier service platform designed to offer efficient shipping solutions. We developed a fast and intuitive website with real-time tracking and service management. Package includes:\nWebsite Design & Build ✅\nCourier Service Integration ✅\nReal-time Tracking ✅\nResponsive Design ✅",
+      "Freightiex is a courier service platform designed to offer efficient shipping solutions. We developed a fast and intuitive website with real-time tracking and service management. Package includes:",
+    package: [
+      "Website Design & Build",
+      "Courier Service Integration",
+      "Real-time Tracking",
+      "Responsive Design",
+    ],
   },
   {
     id: "6",
@@ -109,7 +133,14 @@ export const myPortfolio = [
     link: null,
     type: "WEBSITE",
     description:
-      "Deluxe Token Mint required a website that could support their cryptocurrency token minting service. We created a secure, informative, and user-friendly platform for token creation and management. Package includes:\nWebsite Design & Build ✅\nCryptocurrency Integration ✅\nUser Registration & Dashboard ✅\nResponsive Design ✅",
+      "Deluxe Token Mint is an NFT platform designed for seamless interaction with digital assets. It allows users to place bids on NFTs, purchase unique creations, and list their own NFTs for sale. The website combines intuitive design with robust functionality to support a thriving NFT marketplace.Package includes:",
+    package: [
+      "Website Design & Build",
+      "NFT Bidding & Listing",
+      "Secure Transactions",
+      "User Dashboard",
+      "Mobile Responsive",
+    ],
   },
   {
     id: "7",

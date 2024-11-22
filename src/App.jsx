@@ -18,7 +18,6 @@ export default function App() {
   const [showContact, setShowContact] = useState(false);
   useEffect(() => {
     AOS.init({
-      offset: 100,
       duration: 600,
       easing: "ease-in-out",
       delay: 200,
