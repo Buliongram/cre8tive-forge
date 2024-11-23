@@ -132,11 +132,11 @@ export default function Projects() {
                 </a>
               )}
             </main>
-            <main className="flex flex-col lg:gap-4 gap-2 w-full">
-              <h2 className="text-2xl font-bold text-main">
+            <main className="flex flex-col lg:gap-4 gap-2 w-full font-medium">
+              <h2 className="text-2xl font-black text-main font-main">
                 {selectedWork.name}
               </h2>
-              <p className="text-left text-sm ">{selectedWork.description}</p>
+              <p className="text-left text-sm">{selectedWork.description}</p>
               {selectedWork.package && (
                 <div className="flex text-sm flex-col items-start gap-1">
                   {selectedWork.package.map((pack) => (

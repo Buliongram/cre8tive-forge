@@ -11,11 +11,14 @@
 body,
 html {
   overflow-x: hidden;
+  font-family: "Raleway", sans-serif;
 }
 * {
-  font-family: "acorn", sans-serif;
   transition: all 0.5s ease-in;
   scroll-behavior: smooth;
+}
+.mainFont {
+  font-family: "acorn", sans-serif !important;
 }
 .bgGradient {
   background: rgb(250, 2, 86);
@@ -44,46 +47,15 @@ html {
   max-width: 100%;
 }
 
-.restaurantFoodCont {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  grid-auto-flow: dense;
-}
-@media screen and (max-width: 640px) {
-  .restaurantFoodCont {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    grid-auto-flow: dense;
-  }
+.preloaderWrapper {
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 0.5s ease, visibility 0.5s ease;
 }
 
-.preloaderCont::after {
-  content: "";
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: rgba(2, 90, 78, 0.3);
-  border-radius: 50%;
-  animation: bluePulse 1.5s infinite ease-out;
-}
-
-@keyframes bluePulse {
-  0% {
-    opacity: 0.8;
-    width: 50px;
-    height: 50px;
-  }
-  50% {
-    opacity: 0.2;
-    width: 150px;
-    height: 150px;
-  }
-  100% {
-    opacity: 0;
-    width: 300px;
-    height: 300px;
-  }
+.preloaderWrapper.hidden {
+  opacity: 0;
+  visibility: hidden;
 }
 
 .preloaderImage {
@@ -92,7 +64,7 @@ html {
 
 @keyframes scaleRotate {
   0% {
-    transform: rotate(0deg) scale(0.8);
+    transform: rotate(0deg) scale(0.3);
   }
   50% {
     transform: rotate(180deg) scale(1.2);

@@ -99,11 +99,11 @@ export default function Home() {
             </div>
           </section>
 
-          <section className="flex flex-col gap-5 lg:gap-0">
+          <section className="flex flex-col gap-5 lg:gap-0 font-medium">
             <div className="flex flex-col gap-2">
               <h1
                 data-aos="flip-left"
-                className="text-3xl lg:text-5xl font-main font-black text-main mt-10"
+                className="text-3xl lg:text-5xl font-main font-black text-main mt-10 "
               >
                 Bringing Your Vision to Life
               </h1>
@@ -125,7 +125,7 @@ export default function Home() {
                 <span className="group-hover:rotate-[360deg]">
                   <FaLaptopCode className="text-3xl lg:text-4xl" />
                 </span>
-                <span className="text-lg lg:text-xl font-semibold">
+                <span className="text-lg lg:text-xl font-semibold font-main">
                   Web Development:
                 </span>
                 <span className="text-sm lg:text-[16px]">
@@ -144,7 +144,7 @@ export default function Home() {
                 <span className="group-hover:rotate-[360deg]">
                   <FaPenNib className="text-3xl lg:text-4xl" />
                 </span>
-                <span className="text-lg lg:text-xl font-semibold">
+                <span className="text-lg lg:text-xl font-semibold font-main">
                   Graphic Design:
                 </span>
                 <span className="text-sm lg:text-[16px]">
@@ -162,7 +162,7 @@ export default function Home() {
                 <span className="group-hover:rotate-[360deg]">
                   <FaBullhorn className="text-3xl lg:text-4xl" />
                 </span>
-                <span className="text-lg lg:text-xl font-semibold">
+                <span className="text-lg lg:text-xl font-semibold font-main">
                   Marketing:
                 </span>
                 <span className="text-sm lg:text-[16px]">
@@ -172,9 +172,29 @@ export default function Home() {
                 </span>
               </main>
             </main>
+
+            <div className="flex items-center gap-3 mx-auto flex-col lg:flex-row">
+              <p
+                data-aos="fade-up"
+                data-aos-delay="200"
+                className="font-medium text-lg lg:text-xl text-main l"
+              >
+                Ready to take the next step?
+              </p>
+              <a
+                href="mailto:davidimade01@gmail.com"
+                data-aos="fade-right"
+                data-aos-delay="400"
+                className="p-2 bg-main w-max text-white outline-none flex items-center gap-2 px-4"
+              >
+                <FaRegPaperPlane />
+                <span> Let’s work together!</span>
+              </a>
+            </div>
           </section>
         </main>
       </section>
+
       {isModalOpen && selectedWork && (
         <div className="modal fixed inset-0 bg-black/50 flex items-center justify-center z-[11]">
           <section className="bg-white max-h-[90%] h-max rounded-3xl p-8 lg:py-12  max-w-[800px] w-[90%] shrink-0 flex flex-col lg:flex-row lg:gap-12 gap-5 relative overflow-y-scroll hideOverflow">

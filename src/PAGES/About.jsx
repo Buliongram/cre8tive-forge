@@ -6,7 +6,6 @@ import { FaRegPaperPlane } from "react-icons/fa6";
 export default function About() {
   return (
     <>
-      <Counter targetNumber={1000} duration={2000} />
       <section className="flex flex-col gap-10 lg:gap-28 pb-20  p-6 lg:p-10 w-full ">
         <main className="max-w-[1000px] mx-auto flex flex-col items-center gap-5 ">
           <h1
@@ -43,7 +42,7 @@ export default function About() {
           </main>
         </section>
 
-        <section className="flex flex-col lg:gap-6 gap-3 text-white items-end">
+        <section className="flex flex-col lg:gap-6 gap-3 text-white items-end font-main">
           <main
             data-aos="fade-up"
             className="flex items-center gap-2 px-4 lg:px-6 lg:py-3 py-2 rounded-full bg-main w-max"
@@ -74,21 +73,7 @@ export default function About() {
 
           <main
             data-aos="fade-up"
-            className="flex items-center gap-2 px-4 lg:px-6 lg:py-3 py-2 rounded-full bg-main w-max mr-[5rem] lg:mr-[25rem]"
-          >
-            <span className="font-black text-xl lg:text-4xl tracking-widest">
-              <span className="flex items-center gap-1">
-                <Counter targetNumber={50} duration={500} />+
-              </span>
-            </span>
-            <span className="text-sm lg:text-lg tracking-wide font-semibold">
-              Customers Satified
-            </span>
-          </main>
-
-          <main
-            data-aos="fade-up"
-            className="flex items-center gap-2 px-4 lg:px-6 lg:py-3 py-2 rounded-full bg-main w-max mr-[7rem] lg:mr-[35rem]"
+            className="flex items-center gap-2 px-4 lg:px-6 lg:py-3 py-2 rounded-full bg-main w-max mr-[8rem] lg:mr-[30rem]"
           >
             <span className="font-black text-xl lg:text-4xl tracking-widest">
               <span className="flex items-center gap-1">
@@ -96,7 +81,7 @@ export default function About() {
               </span>
             </span>
             <span className="text-sm lg:text-lg tracking-wide font-semibold">
-              Website Developed
+              Logos Created
             </span>
           </main>
 
@@ -106,19 +91,19 @@ export default function About() {
           >
             <span className="font-black text-xl lg:text-4xl tracking-widest">
               <span className="flex items-center gap-1">
-                <Counter targetNumber={10} duration={500} />+
+                <Counter targetNumber={50} duration={500} />+
               </span>
             </span>
             <span className="text-sm lg:text-lg tracking-wide font-semibold">
-              Website Developed
+              Customers Satisfied
             </span>
           </main>
         </section>
 
-        <main className=" flex flex-col items-center gap-5 ">
+        <main className=" flex flex-col items-center gap-5  ">
           <h1
             data-aos="zoom-in-up"
-            className="text-2xl lg:text-4xl font-main font-black text-main"
+            className="text-2xl lg:text-4xl font-main font-black text-main "
           >
             Let’s Work Together to Create Impactful Graphic Design and Web
             Development Solutions That Drive Results
@@ -126,7 +111,7 @@ export default function About() {
           <p
             data-aos="fade-up"
             data-aos-delay="200"
-            className="font-medium text-lg lg:text-xl text-main lg:px-20"
+            className="font-medium text-[16px] lg:text-xl text-main lg:px-20"
           >
             Together, we can create a lasting positive impact for future
             generations. Our goal is to contribute to this vision through
@@ -135,19 +120,19 @@ export default function About() {
             difference.
           </p>
 
-          <section className="lg:p-24 p-6 max-[640px]:-mx-6 flex flex-col gap-6 lg:gap-10 bg-gray-100/40 lg:rounded-[4rem]">
+          <section className="lg:p-24 p-6 max-[640px]:-mx-6 flex flex-col gap-6 lg:gap-10 bg-gray-100/40 lg:rounded-[4rem] ">
             <main className="flex flex-col lg:flex-row gap-6 lg:gap-10">
               <div
                 className="flex flex-col gap-5 w-full items-start"
                 data-aos="fade-up"
               >
-                <span className="text-2xl font-black lg:text-5xl text-main/40">
+                <span className="text-2xl font-black lg:text-5xl text-main/40 font-main">
                   01
                 </span>
-                <span className="text-xl font-black lg:text-3xl text-main">
+                <span className="text-xl font-black lg:text-3xl text-main font-main">
                   Design with Purpose
                 </span>
-                <p className="text-[16px] lg:text-lg text-main text-left">
+                <p className="text-[16px] lg:text-lg text-main text-left font-medium">
                   Every project starts with a clear goal. Whether it's designing
                   or coding, we focus on solving real problems. The tools are
                   just a starting point—what matters is making it work in the
@@ -160,13 +145,13 @@ export default function About() {
                 data-aos="fade-up"
                 data-aos-delay="200"
               >
-                <span className="text-2xl font-black lg:text-5xl text-main/40">
+                <span className="text-2xl font-black lg:text-5xl text-main/40 font-main">
                   02
                 </span>
-                <span className="text-xl font-black lg:text-3xl text-main">
+                <span className="text-xl font-black lg:text-3xl text-main font-main">
                   Build Together
                 </span>
-                <p className="text-[16px] lg:text-lg text-main text-left">
+                <p className="text-[16px] lg:text-lg text-main text-left font-medium">
                   Great work comes from collaboration. We involve the clients
                   throughout the process to ensure we’re aligned and the final
                   result reflects everyone’s vision.
@@ -179,13 +164,13 @@ export default function About() {
                 className="flex flex-col gap-5 w-full items-start"
                 data-aos="fade-right"
               >
-                <span className="text-2xl font-black lg:text-5xl text-main/40">
+                <span className="text-2xl font-black lg:text-5xl text-main/40 font-main">
                   03
                 </span>
-                <span className="text-xl font-black lg:text-3xl text-main">
+                <span className="text-xl font-black lg:text-3xl text-main font-main">
                   Accessible for Everyone
                 </span>
-                <p className="text-[16px] lg:text-lg text-main text-left">
+                <p className="text-[16px] lg:text-lg text-main text-left font-medium">
                   Accessibility is key. We design and develop with inclusivity
                   in mind, making sure that everything I create is usable and
                   enjoyable for all.
@@ -197,13 +182,13 @@ export default function About() {
                 data-aos="fade-right"
                 data-aos-delay="200"
               >
-                <span className="text-2xl font-black lg:text-5xl text-main/40">
+                <span className="text-2xl font-black lg:text-5xl text-main/40 font-main">
                   04
                 </span>
-                <span className="text-xl font-black lg:text-3xl text-main">
+                <span className="text-xl font-black lg:text-3xl text-main font-main">
                   Always Evolving
                 </span>
-                <p className="text-[16px] lg:text-lg text-main text-left">
+                <p className="text-[16px] lg:text-lg text-main text-left font-medium">
                   Design and development are ever-changing. We experiment,
                   learn, and grow with each project, knowing that every
                   challenge is an opportunity to improve.

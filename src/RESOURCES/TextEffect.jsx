@@ -38,7 +38,7 @@ const TypingEffect = () => {
     return () => clearTimeout(typingTimeout); // Cleanup timeout on component unmount or effect re-run
   }, [text, isDeleting, index, textArray]);
 
-  return <span>{text}</span>;
+  return <span className="font-main">{text}</span>;
 };
 
 export default TypingEffect;

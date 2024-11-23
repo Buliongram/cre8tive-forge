@@ -19,12 +19,16 @@ export default function App() {
   useEffect(() => {
     AOS.init({
       duration: 600,
-      easing: "ease-in-out",
+      easing: "ease-in",
       delay: 200,
       once: true,
+      offset: 50,
     });
 
-    AOS.refresh();
+    const timeout = setTimeout(() => {
+      AOS.refresh();
+    }, 500);
+    return () => clearTimeout(timeout);
   }, []);
 
   function PageLayout() {
@@ -32,8 +36,10 @@ export default function App() {
       <>
         <Suspense
           fallback={
-            <section className="h-full w-full fixed left-0 top-0 bg-white/40 backdrop-blur-lg grid place-items-center">
-              <div className="preloaderCont h-24 w-24 lg:h-32 lg:w-32 rounded-full flex items-center justify-center shrink-0 bg-main">
+            <section
+              className={`preloaderWrapper h-full w-full fixed left-0 top-0 bg-white/40 backdrop-blur-lg grid place-items-center`}
+            >
+              <div className=" h-24 w-24 lg:h-32 lg:w-32 rounded-full flex items-center relative z-[11] justify-center shrink-0 bg-main">
                 <img
                   src={ICON}
                   className="preloaderImage w-[70px] lg:w-[100px]"

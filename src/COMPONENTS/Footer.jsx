@@ -4,20 +4,17 @@ import { navLinks } from "../RESOURCES/links";
 import { BsEnvelope, BsInstagram, BsPhone, BsWhatsapp } from "react-icons/bs";
 import { LOGO } from "../ASSETS/IMAGES/images";
 
-
 export default function Footer() {
-
-
   return (
     <footer className="flex flex-col lg:flex-row p-6 lg:py-10 lg:px-32 gap-10">
       <section
         className="flex w-full flex-col justify-between gap-6 items-start"
         data-aos="fade-up"
-        data-aos-duration="600"
+        data-aos-duration="300"
         data-aos-delay="200"
       >
         <img src={LOGO} alt="Icon" className="w-[150px] lg:w-[200px]" />
-        <span className="text-sm text-main">
+        <span className="text-sm text-main font-medium">
           © cre8tiveForge 2024. All Rights Reserved.
         </span>
       </section>
@@ -28,7 +25,9 @@ export default function Footer() {
         data-aos-duration="600"
         data-aos-delay="300"
       >
-        <span className="text-lg font-medium text-main">QUICK LINKS</span>
+        <span className="text-lg font-medium text-main font-main">
+          QUICK LINKS
+        </span>
         <div className="flex flex-col gap-3 items-start">
           {navLinks.map((link) => (
             <Link
@@ -48,7 +47,9 @@ export default function Footer() {
         data-aos-duration="600"
         data-aos-delay="400"
       >
-        <span className="text-lg font-medium text-main">CONTACT US</span>
+        <span className="text-lg font-medium text-main font-main">
+          CONTACT US
+        </span>
         <main className="flex flex-col gap-3 items-start">
           <a
             href="tel:+2349045862649"

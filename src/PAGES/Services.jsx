@@ -29,7 +29,7 @@ export default function Services() {
           </p>
         </main>
 
-        <main className="lg:gap-20 flex flex-col lg:flex-row items-center lg:p-20">
+        <main className="lg:gap-20 flex flex-col lg:flex-row items-center lg:p-20 font-medium">
           <main
             data-aos="fade-up"
             data-aos-delay="600"
@@ -38,7 +38,7 @@ export default function Services() {
             <span className="group-hover:rotate-[360deg]">
               <FaLaptopCode className="text-3xl lg:text-4xl" />
             </span>
-            <span className="text-lg lg:text-xl font-semibold">
+            <span className="text-lg lg:text-xl font-semibold font-main">
               Web Development:
             </span>
             <span className="text-sm lg:text-[16px]">
@@ -56,7 +56,7 @@ export default function Services() {
             <span className="group-hover:rotate-[360deg]">
               <FaPenNib className="text-3xl lg:text-4xl" />
             </span>
-            <span className="text-lg lg:text-xl font-semibold">
+            <span className="text-lg lg:text-xl font-semibold font-main">
               Graphic Design:
             </span>
             <span className="text-sm lg:text-[16px]">
@@ -74,7 +74,9 @@ export default function Services() {
             <span className="group-hover:rotate-[360deg]">
               <FaBullhorn className="text-3xl lg:text-4xl" />
             </span>
-            <span className="text-lg lg:text-xl font-semibold">Marketing:</span>
+            <span className="text-lg lg:text-xl font-semibold font-main">
+              Marketing:
+            </span>
             <span className="text-sm lg:text-[16px]">
               We help your business grow with marketing strategies that really
               connect. Our campaigns are designed to reach the right people,

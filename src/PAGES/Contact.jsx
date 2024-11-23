@@ -50,9 +50,9 @@ export default function Contact({ showContact, setShowContact }) {
       <section
         className={`${
           showContact ? "lg:right-6" : "-right-full"
-        } fixed top-0  bg-white/40 backdrop-blur-md lg:h-[90%] w-full lg:w-[380px] overflow-y-scroll rounded-b-3xl z-[12] h-full`}
+        } fixed top-0  bg-white/40 backdrop-blur-md lg:h-[90%] w-full lg:w-[380px] overflow-y-scroll rounded-b-3xl z-[12] h-full font-main`}
       >
-        <main className="p-4 bg-main text-white flex lg:hidden items-center justify-between w-full">
+        <main className="p-4 bg-main text-white flex lg:hidden items-center justify-between w-full ">
           <div className="flex items-center gap-4">
             <span className="h-10 w-10 rounded-full border-2 border-white p-1">
               <img src={ICON} alt="Icon" />
@@ -62,13 +62,21 @@ export default function Contact({ showContact, setShowContact }) {
               <p className="text-[13px]">Ask me a question</p>
             </div>
           </div>
-          <span
+          <button
             onClick={() => setShowContact(false)}
-            className="h-7 w-7 flex items-center justify-center cursor-pointer"
+            class="text-xl group h-7 w-7 shrink-0  flex items-center justify-center outline-none cursor-pointer border border-white border-dotted"
           >
-            <IoClose className="text-2xl" />
-          </span>
+            <IoClose className="text-2xl group-hover:rotate-180" />
+          </button>
         </main>
+
+        <button
+          onClick={() => setShowContact(false)}
+          class="text-xl absolute top-4 right-4 group h-7 w-7 shrink-0 items-center justify-center outline-none cursor-pointer border border-main text-main border-dotted hidden lg:flex"
+        >
+          <IoClose className="text-2xl group-hover:rotate-180" />
+        </button>
+
         <main className="flex flex-col gap-2 px-5 pt-4 ">
           {messages.map((message, idx) => (
             <p
