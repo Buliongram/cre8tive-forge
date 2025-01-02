@@ -11,17 +11,10 @@ export default function Services() {
     <>
       <section className="flex flex-col gap-5 pb-20  p-6 lg:p-10 w-full ">
         <main className="max-w-[1000px] mx-auto flex flex-col items-center gap-5 ">
-          <h1
-            data-aos="zoom-in-up"
-            className="text-4xl lg:text-7xl font-main font-black text-main"
-          >
+          <h1 className="text-4xl lg:text-7xl font-main font-black text-main">
             Explore Our Solutions
           </h1>
-          <p
-            data-aos="fade-up"
-            data-aos-delay="200"
-            className="font-medium text-lg lg:text-xl text-main lg:px-20"
-          >
+          <p className="font-medium text-lg lg:text-xl text-main lg:px-20">
             We offer custom web development, graphic design, and branding
             solutions to help your business thrive online. From building
             websites to creating standout brands, we’re here to bring your
@@ -30,11 +23,7 @@ export default function Services() {
         </main>
 
         <main className="lg:gap-20 flex flex-col lg:flex-row items-center lg:p-20 font-medium">
-          <main
-            data-aos="fade-up"
-            data-aos-delay="600"
-            className="flex flex-col gap-3 items-center rounded-[2rem]  text-main cursor-pointer group p-6 lg:p-0"
-          >
+          <main className="flex flex-col gap-3 items-center rounded-[2rem]  text-main cursor-pointer group p-6 lg:p-0">
             <span className="group-hover:rotate-[360deg]">
               <FaLaptopCode className="text-3xl lg:text-4xl" />
             </span>
@@ -48,11 +37,7 @@ export default function Services() {
             </span>
           </main>
 
-          <main
-            data-aos="fade-up"
-            data-aos-delay="900"
-            className="flex flex-col gap-3 items-center rounded-[2rem]  text-main cursor-pointer group p-6 lg:p-0"
-          >
+          <main className="flex flex-col gap-3 items-center rounded-[2rem]  text-main cursor-pointer group p-6 lg:p-0">
             <span className="group-hover:rotate-[360deg]">
               <FaPenNib className="text-3xl lg:text-4xl" />
             </span>
@@ -66,11 +51,7 @@ export default function Services() {
             </span>
           </main>
 
-          <main
-            data-aos="fade-up"
-            data-aos-delay="1200"
-            className="flex flex-col gap-3 items-center rounded-[2rem]  text-main cursor-pointer group p-6 lg:p-0"
-          >
+          <main className="flex flex-col gap-3 items-center rounded-[2rem]  text-main cursor-pointer group p-6 lg:p-0">
             <span className="group-hover:rotate-[360deg]">
               <FaBullhorn className="text-3xl lg:text-4xl" />
             </span>
@@ -86,17 +67,11 @@ export default function Services() {
         </main>
 
         <div className="flex items-center gap-3 mx-auto flex-col lg:flex-row">
-          <p
-            data-aos="fade-up"
-            data-aos-delay="200"
-            className="font-medium text-lg lg:text-xl text-main l"
-          >
+          <p className="font-medium text-lg lg:text-xl text-main l">
             Ready to take the next step?
           </p>
           <a
             href="mailto:davidimade01@gmail.com"
-            data-aos="fade-right"
-            data-aos-delay="400"
             className="p-2 bg-main w-max text-white outline-none flex items-center gap-2 px-4"
           >
             <FaRegPaperPlane />

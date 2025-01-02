@@ -8,10 +8,7 @@ export default function About() {
     <>
       <section className="flex flex-col gap-10 lg:gap-28 pb-20  p-6 lg:p-10 w-full ">
         <main className="max-w-[1000px] mx-auto flex flex-col items-center gap-5 ">
-          <h1
-            data-aos="zoom-in-up"
-            className="text-4xl lg:text-7xl font-main font-black text-main"
-          >
+          <h1 className="text-4xl lg:text-7xl font-main font-black text-main">
             The Story Behind Cre8tive Forge
           </h1>
         </main>
@@ -43,10 +40,7 @@ export default function About() {
         </section>
 
         <section className="flex flex-col lg:gap-6 gap-3 text-white items-end font-main">
-          <main
-            data-aos="fade-up"
-            className="flex items-center gap-2 px-4 lg:px-6 lg:py-3 py-2 rounded-full bg-main w-max"
-          >
+          <main className="flex items-center gap-2 px-4 lg:px-6 lg:py-3 py-2 rounded-full bg-main w-max">
             <span className="font-black text-xl lg:text-4xl tracking-widest">
               <span className="flex items-center gap-1">
                 <Counter targetNumber={10} duration={500} />+
@@ -57,10 +51,7 @@ export default function About() {
             </span>
           </main>
 
-          <main
-            data-aos="fade-up"
-            className="flex items-center gap-2 px-4 lg:px-6 lg:py-3 py-2 rounded-full bg-main w-max mr-[3rem] lg:mr-[15rem]"
-          >
+          <main className="flex items-center gap-2 px-4 lg:px-6 lg:py-3 py-2 rounded-full bg-main w-max mr-[3rem] lg:mr-[15rem]">
             <span className="font-black text-xl lg:text-4xl tracking-widest">
               <span className="flex items-center gap-1">
                 <Counter targetNumber={40} duration={500} />+
@@ -71,10 +62,7 @@ export default function About() {
             </span>
           </main>
 
-          <main
-            data-aos="fade-up"
-            className="flex items-center gap-2 px-4 lg:px-6 lg:py-3 py-2 rounded-full bg-main w-max mr-[8rem] lg:mr-[30rem]"
-          >
+          <main className="flex items-center gap-2 px-4 lg:px-6 lg:py-3 py-2 rounded-full bg-main w-max mr-[8rem] lg:mr-[30rem]">
             <span className="font-black text-xl lg:text-4xl tracking-widest">
               <span className="flex items-center gap-1">
                 <Counter targetNumber={10} duration={500} />+
@@ -85,10 +73,7 @@ export default function About() {
             </span>
           </main>
 
-          <main
-            data-aos="fade-up"
-            className="flex items-center gap-2 px-4 lg:px-6 lg:py-3 py-2 rounded-full bg-main w-max mr-[9rem] lg:mr-[45rem]"
-          >
+          <main className="flex items-center gap-2 px-4 lg:px-6 lg:py-3 py-2 rounded-full bg-main w-max mr-[9rem] lg:mr-[45rem]">
             <span className="font-black text-xl lg:text-4xl tracking-widest">
               <span className="flex items-center gap-1">
                 <Counter targetNumber={50} duration={500} />+
@@ -101,18 +86,11 @@ export default function About() {
         </section>
 
         <main className=" flex flex-col items-center gap-5  ">
-          <h1
-            data-aos="zoom-in-up"
-            className="text-2xl lg:text-4xl font-main font-black text-main "
-          >
+          <h1 className="text-2xl lg:text-4xl font-main font-black text-main ">
             Let’s Work Together to Create Impactful Graphic Design and Web
             Development Solutions That Drive Results
           </h1>
-          <p
-            data-aos="fade-up"
-            data-aos-delay="200"
-            className="font-medium text-[16px] lg:text-xl text-main lg:px-20"
-          >
+          <p className="font-medium text-[16px] lg:text-xl text-main lg:px-20">
             Together, we can create a lasting positive impact for future
             generations. Our goal is to contribute to this vision through
             sustainable, impactful design and development. If you share this
@@ -122,10 +100,7 @@ export default function About() {
 
           <section className="lg:p-24 p-6 max-[640px]:-mx-6 flex flex-col gap-6 lg:gap-10 bg-gray-100/40 lg:rounded-[4rem] ">
             <main className="flex flex-col lg:flex-row gap-6 lg:gap-10">
-              <div
-                className="flex flex-col gap-5 w-full items-start"
-                data-aos="fade-up"
-              >
+              <div className="flex flex-col gap-5 w-full items-start">
                 <span className="text-2xl font-black lg:text-5xl text-main/40 font-main">
                   01
                 </span>
@@ -140,11 +115,7 @@ export default function About() {
                 </p>
               </div>
 
-              <div
-                className="flex flex-col gap-5 w-full items-start"
-                data-aos="fade-up"
-                data-aos-delay="200"
-              >
+              <div className="flex flex-col gap-5 w-full items-start">
                 <span className="text-2xl font-black lg:text-5xl text-main/40 font-main">
                   02
                 </span>
@@ -160,10 +131,7 @@ export default function About() {
             </main>
 
             <main className="flex flex-col lg:flex-row gap-6 lg:gap-10">
-              <div
-                className="flex flex-col gap-5 w-full items-start"
-                data-aos="fade-right"
-              >
+              <div className="flex flex-col gap-5 w-full items-start">
                 <span className="text-2xl font-black lg:text-5xl text-main/40 font-main">
                   03
                 </span>
@@ -177,11 +145,7 @@ export default function About() {
                 </p>
               </div>
 
-              <div
-                className="flex flex-col gap-5 w-full items-start"
-                data-aos="fade-right"
-                data-aos-delay="200"
-              >
+              <div className="flex flex-col gap-5 w-full items-start">
                 <span className="text-2xl font-black lg:text-5xl text-main/40 font-main">
                   04
                 </span>
@@ -198,17 +162,11 @@ export default function About() {
           </section>
 
           <div className="flex items-center gap-3 mx-auto flex-col lg:flex-row">
-            <p
-              data-aos="fade-up"
-              data-aos-delay="200"
-              className="font-medium text-lg lg:text-xl text-main l"
-            >
+            <p className="font-medium text-lg lg:text-xl text-main l">
               Ready to take the next step?
             </p>
             <a
               href="mailto:davidimade01@gmail.com"
-              data-aos="fade-right"
-              data-aos-delay="400"
               className="p-2 bg-main w-max text-white outline-none flex items-center gap-2 px-4"
             >
               <FaRegPaperPlane />

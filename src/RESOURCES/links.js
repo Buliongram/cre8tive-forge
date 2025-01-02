@@ -11,6 +11,8 @@ import {
   FLYER19,
   FLYER2,
   FLYER20,
+  FLYER21,
+  FLYER22,
   FLYER3,
   FLYER4,
   FLYER5,
@@ -24,6 +26,7 @@ import {
   WEBSITE4,
   WEBSITE5,
   WEBSITE6,
+  WEBSITE7,
 } from "../ASSETS/IMAGES/images";
 
 export const navLinks = [
@@ -52,18 +55,17 @@ export const navLinks = [
 export const myPortfolio = [
   {
     id: "1",
-    name: "Mandyz Elite Restaurant",
+    name: "Rentatruck",
     image: WEBSITE1,
-    link: "mandyz.vercel.app",
+    link: "rentatruck.ng",
     type: "WEBSITE",
     description:
-      "Mandyz Elite Restaurant required a functional and user-friendly platform for customers to place food orders online. We delivered a complete solution with a modern website design, smooth ordering process, and responsive interface for a better customer experience. Package includes:",
+      "Rentatruck is a platform designed to simplify the process of renting trucks for personal or business needs. We developed a user-friendly website with features like customizable rental options, detailed vehicle listings, and a seamless booking process. Package includes:",
     package: [
       "Website Design & Build",
-      "Order System Integration",
-      "Mobile Responsive",
-      "Easy Navigation",
-      "Secure Checkout & Payment System (Paystack)",
+      "Booking tracking system",
+      "Flexible booking options",
+      "User-friendly and easy navigation",
     ],
   },
   {
@@ -98,19 +100,21 @@ export const myPortfolio = [
   },
   {
     id: "4",
-    name: "Restaurant Website",
+    name: "Mandyz Elite Restaurant",
     image: WEBSITE4,
-    link: null,
+    link: "mandyz.vercel.app",
     type: "WEBSITE",
     description:
-      "This project focused on creating a dynamic restaurant website that not only showcases the menu but also allows for online ordering. The solution is fully responsive and tailored to the restaurant industry. Package includes:",
+      "Mandyz Elite Restaurant required a functional and user-friendly platform for customers to place food orders online. We delivered a complete solution with a modern website design, smooth ordering process, and responsive interface for a better customer experience. Package includes:",
     package: [
       "Website Design & Build",
-      "Menu Display",
-      "Online Ordering Integration",
-      "Mobile Friendly",
+      "Order System Integration",
+      "Mobile Responsive",
+      "Easy Navigation",
+      "Secure Checkout & Payment System (Paystack)",
     ],
   },
+
   {
     id: "5",
     name: "Freightiex",
@@ -140,6 +144,21 @@ export const myPortfolio = [
       "Secure Transactions",
       "User Dashboard",
       "Mobile Responsive",
+    ],
+  },
+  {
+    id: "25",
+    name: "Restaurant Website",
+    image: WEBSITE7,
+    link: null,
+    type: "WEBSITE",
+    description:
+      "This project focused on creating a dynamic restaurant website that not only showcases the menu but also allows for online ordering. The solution is fully responsive and tailored to the restaurant industry. Package includes:",
+    package: [
+      "Website Design & Build",
+      "Menu Display",
+      "Online Ordering Integration",
+      "Mobile Friendly",
     ],
   },
   {
@@ -303,5 +322,23 @@ export const myPortfolio = [
     type: "FLYER",
     description:
       "Lunch Specials flyer, designed to entice customers with promotional offers and highlight menu items. Package includes:\nFlyer Design ✅\nMenu Highlights ✅\nSpecial Offers ✅",
+  },
+  {
+    id: "25",
+    name: "Season Greetings",
+    image: FLYER21,
+    link: null,
+    type: "FLYER",
+    description:
+      "Season Greetings flyer, designed to entice customers with promotional offers and highlight menu items. Package includes:\nFlyer Design ✅\nMenu Highlights ✅\nSpecial Offers ✅",
+  },
+  {
+    id: "26",
+    name: "Season Greetings",
+    image: FLYER22,
+    link: null,
+    type: "FLYER",
+    description:
+      "Season Greetings flyer, designed to entice customers with promotional offers and highlight menu items. Package includes:\nFlyer Design ✅\nMenu Highlights ✅\nSpecial Offers ✅",
   },
 ];

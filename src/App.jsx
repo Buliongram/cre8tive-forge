@@ -16,20 +16,6 @@ const Services = lazy(() => import("./PAGES/Services"));
 
 export default function App() {
   const [showContact, setShowContact] = useState(false);
-  useEffect(() => {
-    AOS.init({
-      duration: 600,
-      easing: "ease-in",
-      delay: 200,
-      once: true,
-      offset: 50,
-    });
-
-    const timeout = setTimeout(() => {
-      AOS.refresh();
-    }, 500);
-    return () => clearTimeout(timeout);
-  }, []);
 
   function PageLayout() {
     return (
@@ -37,7 +23,7 @@ export default function App() {
         <Suspense
           fallback={
             <section
-              className={`preloaderWrapper h-full w-full fixed left-0 top-0 bg-white/40 backdrop-blur-lg grid place-items-center`}
+              className={`preloaderWrapper h-full w-full fixed left-0 top-0 bg-white backdrop-blur-lg grid place-items-center`}
             >
               <div className=" h-24 w-24 lg:h-32 lg:w-32 rounded-full flex items-center relative z-[11] justify-center shrink-0 bg-main">
                 <img

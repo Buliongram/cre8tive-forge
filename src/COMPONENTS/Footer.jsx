@@ -7,24 +7,14 @@ import { LOGO } from "../ASSETS/IMAGES/images";
 export default function Footer() {
   return (
     <footer className="flex flex-col lg:flex-row p-6 lg:py-10 lg:px-32 gap-10">
-      <section
-        className="flex w-full flex-col justify-between gap-6 items-start"
-        data-aos="fade-up"
-        data-aos-duration="300"
-        data-aos-delay="200"
-      >
+      <section className="flex w-full flex-col justify-between gap-6 items-start">
         <img src={LOGO} alt="Icon" className="w-[150px] lg:w-[200px]" />
         <span className="text-sm text-main font-medium">
           © cre8tiveForge 2024. All Rights Reserved.
         </span>
       </section>
 
-      <section
-        className="w-full flex flex-col gap-6 items-start"
-        data-aos="fade-up"
-        data-aos-duration="600"
-        data-aos-delay="300"
-      >
+      <section className="w-full flex flex-col gap-6 items-start">
         <span className="text-lg font-medium text-main font-main">
           QUICK LINKS
         </span>
@@ -41,17 +31,14 @@ export default function Footer() {
         </div>
       </section>
 
-      <section
-        className="w-full flex flex-col gap-6 items-start"
-        data-aos="fade-up"
-        data-aos-duration="600"
-        data-aos-delay="400"
-      >
+      <section className="w-full flex flex-col gap-6 items-start">
         <span className="text-lg font-medium text-main font-main">
           CONTACT US
         </span>
         <main className="flex flex-col gap-3 items-start">
           <a
+            target="_blank"
+            rel="noopener noreferrer"
             href="tel:+2349045862649"
             className="flex items-center gap-2 text-main"
           >
@@ -63,6 +50,8 @@ export default function Footer() {
           </a>
 
           <a
+            target="_blank"
+            rel="noopener noreferrer"
             href="mailto:davidimade01@gmail.com"
             className="flex items-center gap-2 text-main"
           >
@@ -75,7 +64,12 @@ export default function Footer() {
             </span>
           </a>
 
-          <a href="wa.me/" className="flex items-center gap-2 text-main">
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://wa.me/+2349045862649"
+            className="flex items-center gap-2 text-main"
+          >
             <span className="h-7 w-7 rounded-full flex items-center justify-center text-white bg-main">
               <BsWhatsapp className="text-sm" />
             </span>
@@ -84,7 +78,9 @@ export default function Footer() {
           </a>
 
           <a
-            href="tel:+2349045862649"
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://instagram.com/cre8tiveforge"
             className="flex items-center gap-2 text-main"
           >
             <span className="h-7 w-7 rounded-full flex items-center justify-center text-white bg-main">

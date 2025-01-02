@@ -11,6 +11,7 @@
 body,
 html {
   overflow-x: hidden;
+  background-color: #ede7de;
   font-family: "Raleway", sans-serif;
 }
 * {

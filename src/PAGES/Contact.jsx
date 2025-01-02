@@ -81,7 +81,7 @@ export default function Contact({ showContact, setShowContact }) {
           {messages.map((message, idx) => (
             <p
               key={idx}
-              data-aos="fade-in"
+
               className={`px-4 py-3 rounded-xl ${
                 message.type === "bot"
                   ? "bg-white w-max text-left break-words max-w-full"
