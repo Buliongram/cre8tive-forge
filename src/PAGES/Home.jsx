@@ -49,9 +49,7 @@ export default function Home() {
         <main className="flex flex-col gap-32 w-full">
           <section className="flex flex-col gap-20">
             <div className="flex flex-col gap-2 items-center">
-              <h1
-                className="text-3xl lg:text-5xl font-main font-black text-main"
-              >
+              <h1 className="text-3xl lg:text-5xl font-main font-black text-main">
                 A Glimpse Into Our Craft
               </h1>
 
@@ -70,7 +68,7 @@ export default function Home() {
                 Ready to take the next step?
               </p>
               <a
-                href="mailto:davidimade01@gmail.com"
+                href="mailto:business.cre8tiveforge@gmail.com"
                 className="p-2 bg-main w-max text-white outline-none flex items-center gap-2 px-4"
               >
                 <FaRegPaperPlane />
@@ -81,14 +79,10 @@ export default function Home() {
 
           <section className="flex flex-col gap-5 lg:gap-0 font-medium">
             <div className="flex flex-col gap-2">
-              <h1
-                className="text-3xl lg:text-5xl font-main font-black text-main mt-10 "
-              >
+              <h1 className="text-3xl lg:text-5xl font-main font-black text-main mt-10 ">
                 Bringing Your Vision to Life
               </h1>
-              <span
-                className="text-lg text-main lg:text-2xl font-semibold"
-              >
+              <span className="text-lg text-main lg:text-2xl font-semibold">
                 &lt; Our Services / &gt;
               </span>
             </div>
@@ -123,9 +117,7 @@ export default function Home() {
                 </span>
               </main>
 
-              <main
-                className="flex flex-col gap-3 items-center rounded-[2rem]  text-main cursor-pointer group p-6 lg:p-0"
-              >
+              <main className="flex flex-col gap-3 items-center rounded-[2rem]  text-main cursor-pointer group p-6 lg:p-0">
                 <span className="group-hover:rotate-[360deg]">
                   <FaBullhorn className="text-3xl lg:text-4xl" />
                 </span>
@@ -145,7 +137,7 @@ export default function Home() {
                 Ready to take the next step?
               </p>
               <a
-                href="mailto:davidimade01@gmail.com"
+                href="mailto:business.cre8tiveforge@gmail.com"
                 className="p-2 bg-main w-max text-white outline-none flex items-center gap-2 px-4"
               >
                 <FaRegPaperPlane />

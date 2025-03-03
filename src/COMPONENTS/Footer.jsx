@@ -2,7 +2,8 @@ import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import { navLinks } from "../RESOURCES/links";
 import { BsEnvelope, BsInstagram, BsPhone, BsWhatsapp } from "react-icons/bs";
-import { LOGO } from "../ASSETS/IMAGES/images";
+import { LOGO } from "../ASSETS/IMAGES/GRAPHICS/graphics";
+
 
 export default function Footer() {
   return (
@@ -39,20 +40,20 @@ export default function Footer() {
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href="tel:+2349045862649"
+            href="tel:+2349016965069"
             className="flex items-center gap-2 text-main"
           >
             <span className="h-7 w-7 rounded-full flex items-center justify-center text-white bg-main">
               <BsPhone className="text-sm" />
             </span>
             <span className="text-[16px]">Phone:</span>
-            <span className="text-black text-[16px]">+234 904 586 2649</span>
+            <span className="text-black text-[16px]">+234 901 696 5069</span>
           </a>
 
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href="mailto:davidimade01@gmail.com"
+            href="mailto:business.cre8tiveforge@gmail.com"
             className="flex items-center gap-2 text-main"
           >
             <span className="h-7 w-7 rounded-full flex items-center justify-center text-white bg-main">
@@ -60,14 +61,14 @@ export default function Footer() {
             </span>
             <span className="text-[16px]">Email:</span>
             <span className="text-black text-[16px]">
-              davidimade01@gmail.com
+              business.cre8tiveforge@gmail.com
             </span>
           </a>
 
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href="https://wa.me/+2349045862649"
+            href="https://wa.me/+2349016965069"
             className="flex items-center gap-2 text-main"
           >
             <span className="h-7 w-7 rounded-full flex items-center justify-center text-white bg-main">

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { IoClose } from "react-icons/io5";
-import { ICON } from "../ASSETS/IMAGES/images";
+import { ICON } from "../ASSETS/IMAGES/GRAPHICS/graphics";
 
 export default function Contact({ showContact, setShowContact }) {
   const [state, setState] = useState("default"); // 'default', 'hello', 'hire', 'options'
@@ -64,7 +64,7 @@ export default function Contact({ showContact, setShowContact }) {
           </div>
           <button
             onClick={() => setShowContact(false)}
-            class="text-xl group h-7 w-7 shrink-0  flex items-center justify-center outline-none cursor-pointer border border-white border-dotted"
+            className="text-xl group h-7 w-7 shrink-0  flex items-center justify-center outline-none cursor-pointer border border-white border-dotted"
           >
             <IoClose className="text-2xl group-hover:rotate-180" />
           </button>
@@ -72,7 +72,7 @@ export default function Contact({ showContact, setShowContact }) {
 
         <button
           onClick={() => setShowContact(false)}
-          class="text-xl absolute top-4 right-4 group h-7 w-7 shrink-0 items-center justify-center outline-none cursor-pointer border border-main text-main border-dotted hidden lg:flex"
+          className="text-xl absolute top-4 right-4 group h-7 w-7 shrink-0 items-center justify-center outline-none cursor-pointer border border-main text-main border-dotted hidden lg:flex"
         >
           <IoClose className="text-2xl group-hover:rotate-180" />
         </button>
@@ -81,7 +81,6 @@ export default function Contact({ showContact, setShowContact }) {
           {messages.map((message, idx) => (
             <p
               key={idx}
-
               className={`px-4 py-3 rounded-xl ${
                 message.type === "bot"
                   ? "bg-white w-max text-left break-words max-w-full"
@@ -112,7 +111,7 @@ export default function Contact({ showContact, setShowContact }) {
           {state === "hire" && (
             <div className="flex gap-2 flex-col">
               <a
-                href="mailto:davidimade01@gmail.com"
+                href="mailto:business.cre8tiveforge@gmail.com"
                 className="px-10 py-3 rounded-full border-2 border-main text-main text-[16px] font-medium w-max"
               >
                 Send a message

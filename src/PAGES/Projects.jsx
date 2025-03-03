@@ -40,9 +40,7 @@ export default function Projects() {
         </main>
 
         <section className="flex flex-col gap-10">
-          <h1
-            className="text-3xl lg:text-5xl font-main font-black text-main"
-          >
+          <h1 className="text-3xl lg:text-5xl font-main font-black text-main">
             Websites Developed
           </h1>
           <WebPortfolio onPortfolioClick={handlePortfolioClick} />
@@ -64,9 +62,7 @@ export default function Projects() {
             ))}
         </section> */}
         <section className="flex flex-col gap-10">
-          <h1
-            className="text-3xl lg:text-5xl font-main font-black text-main"
-          >
+          <h1 className="text-3xl lg:text-5xl font-main font-black text-main">
             Graphic Designs
           </h1>
           <FlyerPortfolio />
@@ -88,7 +84,7 @@ export default function Projects() {
           <section className="bg-white max-h-[90%] h-max rounded-3xl p-8 lg:py-12  max-w-[800px] w-[90%] shrink-0 flex flex-col lg:flex-row lg:gap-12 gap-5 relative overflow-y-scroll hideOverflow">
             <button
               onClick={closeModal}
-              class="text-xl group h-8 w-8 shrink-0 absolute top-6 right-6 flex items-center justify-center outline-none cursor-pointer border border-sky-900 border-dotted"
+              className="text-xl group h-8 w-8 shrink-0 absolute top-6 right-6 flex items-center justify-center outline-none cursor-pointer border border-sky-900 border-dotted"
             >
               <IoClose className="text-2xl group-hover:rotate-180" />
             </button>

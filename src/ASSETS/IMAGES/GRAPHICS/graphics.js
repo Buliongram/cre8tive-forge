@@ -1,0 +1,25 @@
+import ICON from "../ICON.png";
+import LOGO from "../LOGO.png";
+import LOGOWHITE from "../LOGOWHITE.png";
+import POSTER1 from "../GRAPHICS/POSTERS/POSTER1.jpg";
+import POSTER2 from "../GRAPHICS/POSTERS/POSTER2.jpg";
+import POSTER3 from "../GRAPHICS/POSTERS/POSTER3.jpg";
+import POSTER4 from "../GRAPHICS/POSTERS/POSTER4.jpg";
+import POSTER5 from "../GRAPHICS/POSTERS/POSTER5.jpg";
+import POSTER6 from "../GRAPHICS/POSTERS/POSTER6.jpg";
+import POSTER7 from "../GRAPHICS/POSTERS/POSTER7.jpg";
+import POSTER8 from "../GRAPHICS/POSTERS/POSTER8.jpg";
+
+export {
+  ICON,
+  LOGO,
+  LOGOWHITE,
+  POSTER1,
+  POSTER2,
+  POSTER3,
+  POSTER4,
+  POSTER5,
+  POSTER6,
+  POSTER7,
+  POSTER8,
+};

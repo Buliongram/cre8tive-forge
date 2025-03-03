@@ -71,7 +71,7 @@ export default function Services() {
             Ready to take the next step?
           </p>
           <a
-            href="mailto:davidimade01@gmail.com"
+            href="mailto:business.cre8tiveforge@gmail.com"
             className="p-2 bg-main w-max text-white outline-none flex items-center gap-2 px-4"
           >
             <FaRegPaperPlane />

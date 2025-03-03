@@ -6,7 +6,7 @@ import { Toaster } from "react-hot-toast";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { lazy, Suspense, useEffect, useState } from "react";
-import { ICON } from "./ASSETS/IMAGES/images";
+import { ICON } from "./ASSETS/IMAGES/GRAPHICS/graphics";
 
 const Home = lazy(() => import("./PAGES/Home"));
 const Contact = lazy(() => import("./PAGES/Contact"));

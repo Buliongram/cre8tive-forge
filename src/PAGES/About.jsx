@@ -1,7 +1,7 @@
 import React from "react";
-import { LOGOWHITE } from "../ASSETS/IMAGES/images";
 import Counter from "../RESOURCES/NumberCounter";
 import { FaRegPaperPlane } from "react-icons/fa6";
+import { LOGOWHITE } from "../ASSETS/IMAGES/GRAPHICS/graphics";
 
 export default function About() {
   return (
@@ -166,7 +166,7 @@ export default function About() {
               Ready to take the next step?
             </p>
             <a
-              href="mailto:davidimade01@gmail.com"
+              href="mailto:business.cre8tiveforge@gmail.com"
               className="p-2 bg-main w-max text-white outline-none flex items-center gap-2 px-4"
             >
               <FaRegPaperPlane />
